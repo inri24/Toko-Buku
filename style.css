@@ -1,0 +1,144 @@
+.header {
+  background-color: rgb(168, 100, 245);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.hero {
+  height: 552px;
+  background-size: cover;
+  background-image: url("perpustakaan.jpg");
+  text-align: center;
+  padding: 200px;
+}
+.hero h1 {
+  color: rgb(112, 18, 253);
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero p {
+  color: rgb(15, 15, 15);
+  font-weight: 400;
+}
+.hero a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(69, 7, 238, 0.749);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+.hero a:hover {
+  color: white;
+  background-color: rgba(191, 127, 250, 0.874);
+}
+
+.produk {
+  background-color: rgb(238, 237, 231);
+  height: 300px;
+  width: 220px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.produk img {
+  height: 150px;
+  width: 200px;
+  border-radius: 4px;
+}
+.nama-produk {
+  color: rgb(20, 20, 20);
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.harga-produk {
+  color: rgb(33, 33, 33);
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 15px;
+  margin-top: -20px;
+}
+.produk a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(69, 7, 238, 0.749);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  margin-left: 15px;
+}
+
+.menu-produk {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 5px;
+  color: black;
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+  .produk {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 140px;
+    height: 290px;
+  }
+
+  .produk img {
+    width: 140px;
+  }
+
+  .produk a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(138, 64, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .nama-produk {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
+  .hero {
+    height: 400px;
+    padding: 50px;
+  }
+  .hero h1 {
+    color: rgb(112, 18, 253);
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .hero a {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 20px;
+  }
+}

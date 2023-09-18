@@ -1,0 +1,92 @@
+.header {
+  background-color: rgb(168, 100, 245);
+}
+
+.nav-link {
+  color: white !important;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.contact-form h1 {
+  color: blueviolet;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 80%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-color: white;
+}
+.contact-form textarea {
+  background-color: white;
+  width: 80%;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form button {
+  color: white;
+  background-color: rgb(153, 103, 234);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  border: none;
+}
+.contact-form button:hover {
+  color: white;
+  background-color: rgb(110, 100, 247);
+}
+.footer {
+  margin-top: 140px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(112, 18, 253);
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-color: white;
+  }
+  .contact-form textarea {
+    background-color: white;
+    width: 80%;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .contact-form button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+}
